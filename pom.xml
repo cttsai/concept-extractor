@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.illinois.cs.cogcomp</groupId>
+  <artifactId>concept-extraction</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>UIUC Concept Extraction</name>
+  
+  <dependencies>
+    <dependency>
+      <groupId>edu.illinois.cs.cogcomp</groupId>
+      <artifactId>coreUtilities</artifactId>
+      <version>[0.1.2,)</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.illinois.cs.cogcomp</groupId>
+      <artifactId>edison</artifactId>
+      <version>0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.illinois.cs.cogcomp</groupId>
+      <artifactId>curator-client</artifactId>
+      <version>[0.6,)</version>
+    </dependency>
+    <dependency>
+       <groupId>org.apache.thrift</groupId>
+      <artifactId>libthrift</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.illinois.cs.cogcomp</groupId>
+      <artifactId>illinois-chunker</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.illinois.cs.cogcomp</groupId>
+      <artifactId>illinois-chunker</artifactId>
+      <version>2.0.1</version>
+      <classifier>model</classifier>
+    </dependency>
+	<dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.1</version>
+    </dependency>
+	<dependency>
+        <groupId>edu.illinois.cs.cogcomp</groupId>
+        <artifactId>LBJava</artifactId>
+        <version>1.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.illinois.cs.cogcomp</groupId>
+      <artifactId>illinois-pos</artifactId>
+      <version>2.0.2</version>
+    </dependency>
+    <dependency>
+  		<groupId>edu.illinois.cs.cogcomp</groupId>
+  		<artifactId>illinois-pos</artifactId>
+  		<version>2.0.2</version>
+        <classifier>model</classifier>
+	</dependency>
+    
+    
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>uiuc-repo</id>
+      <name>UIUC Maven Repository</name>
+      <url>http://cogcomp.cs.illinois.edu/m2repo/</url>
+    </repository>
+  </repositories>
+  
+</project>
