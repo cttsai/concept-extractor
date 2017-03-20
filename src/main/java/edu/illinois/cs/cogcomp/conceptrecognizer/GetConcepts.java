@@ -9,7 +9,7 @@ import java.util.List;
 public class GetConcepts {
 	public static void main(String[] args)
 	{
-		String input = "/Users/ctsai12/Downloads/conceptExtraction_data/abstracts";
+		String input = "data/abstracts.train";
 		InputReader reader = new InputReader();
 		List<MyTextAnnotation> input_files = reader.getMyTextAnnotations(input);
 		BootStrapper bsp = new BootStrapper();

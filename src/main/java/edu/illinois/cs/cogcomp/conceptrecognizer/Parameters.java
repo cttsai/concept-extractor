@@ -21,7 +21,7 @@ public class Parameters
 	public static double TFIDF_TH=0.13;
 	public static boolean TFIDF_prune=false;
 	
-	public static String TESTDATA = "testset";
+	public static String TESTDATA = "data/testset";
 	public static String TESTSET_META = "testset.meta";
 	
 	// parameters for clustering
