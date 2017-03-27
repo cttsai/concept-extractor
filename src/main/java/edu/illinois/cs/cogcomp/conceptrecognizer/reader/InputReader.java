@@ -1,8 +1,10 @@
 package edu.illinois.cs.cogcomp.conceptrecognizer.reader;
 
 import edu.illinois.cs.cogcomp.conceptrecognizer.ds.MyTextAnnotation;
+import org.apache.commons.io.FileUtils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,6 +15,25 @@ public class InputReader
 	public InputReader()
 	{
 	}
+
+
+//	public MyTextAnnotation getDocument(String inputfile)
+//	{
+//	    String text = null;
+//		try {
+//			text = FileUtils.readFileToString(new File(inputfile));
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//
+//		text = text.replace("<abstract>", "");
+//		text = text.replace("</abstract>", "");
+//		text = text.trim();
+//		text = text.replaceAll("[^\\w\\s\\p{Punct}]", "");
+//		MyTextAnnotation ta = new MyTextAnnotation(text);
+//		return ta;
+//	}
+
 	public List<MyTextAnnotation> getMyTextAnnotations(String inputfile)
 	{
 		
