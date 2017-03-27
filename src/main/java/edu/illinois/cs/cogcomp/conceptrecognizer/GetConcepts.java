@@ -27,7 +27,6 @@ public class GetConcepts {
 			tester.fm.cleanAnnotation1(docs);
 
 			Utils.printTextAnnotations(docs, f.getName(), Parameters.OutputDir);
-			break;
 		}
 	}
 
